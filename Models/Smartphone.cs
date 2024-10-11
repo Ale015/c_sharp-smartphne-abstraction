@@ -13,7 +13,7 @@ namespace DesafioPOO.Models
 
         // Atributos
         public string Numero {get; set;}
-        public string Modelo {get; set;}
+        protected string Modelo {get; set;}
         protected string IMEI {get; set;}
         protected int Memoria {get; set;}
 
